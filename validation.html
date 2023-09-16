@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google fonts css  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@600&family=Montserrat:wght@100&family=Roboto+Mono&family=Rubik:wght@300;400;600;800;900&display=swap"
+        rel="stylesheet">
+    <!-- wow css  -->
+    <link rel="stylesheet" href="css/wow.css">
+    <!-- animate css -->
+    <link rel="stylesheet" href="css/animate.min.css">
+    <!-- fontawesome css  -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- MDB css -->
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    
+
+    <div class="container p-5 ">
+        <div class="row d-flex align-items-center justify-content-between row-va ">
+            <div class="col-lg-4 mr-5 text-center">
+                <img class="img-fluid" src="img/f2.jpg">
+            </div>
+            <!-- the form  -->
+            <div class="col-lg-5 ml-5 content-va">
+                <h2>Creat Account</h2>
+                <p class="w-75">Go ahead and sign up, let everyone know how awesome you are!</p>
+                <p class="t-va" id="errorMessage"></p>
+                <form onsubmit="return valid()" action="sucesses.html" >
+                    <!-- Username input -->
+                    <div class="form-outline mb-4">
+                        <input type="text" id="registerUsername" class="form-control" />
+                        <label class="form-label" for="registerUsername"><i class="fa-solid fa-user icon-va" style="color: #005eff;"></i>Username</label>
+                    </div>
+            
+                    <!-- Email input -->
+                    <div class="form-outline mb-4">
+                        <input type="email" id="registerEmail" class="form-control" />
+                        <label class="form-label" for="registerEmail"><i class="fa-solid fa-envelope icon-va" style="color: #005eff;"></i>E-mail</label>
+                    </div>
+            
+                    <!-- Password input -->
+                    <div class="form-outline mb-4">
+                        <input type="password" id="registerPassword" class="form-control" />
+                        <label class="form-label" for="registerPassword"><i class="fa-solid fa-lock icon-va" style="color: #005eff;"></i>Password</label>
+                    </div>
+            
+                    <!-- Repeat Password input -->
+                    <div class="form-outline mb-4">
+                        <input type="password" id="registerRepeatPassword" class="form-control" />
+                        <label class="form-label" for="registerRepeatPassword"><i class="fa-solid fa-lock icon-va" style="color: #005eff;"></i>Confirm password</label>
+                    </div>
+            
+                    <!-- Submit button -->
+                    <input type="submit" class="btn btn-primary btn-block mb-3" value="Creat New Account" >
+                </form>
+            
+            </div>
+        </div>
+    </div>
+
+
+    <!-- MDB js  -->
+    <script src="js/mdb.min.js"></script>
+    <!-- wow js  -->
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <!-- fontawesome js -->
+    <script src="js/all.min.js"></script>
+    <!-- jquery js -->
+    <script src="js/jquery.min.js"></script>
+    <!-- popar js -->
+    <script src="js/popar.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- main javascript file  -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
